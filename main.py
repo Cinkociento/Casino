@@ -45,7 +45,7 @@ if ready2 in ["yes", "Yes", "ya", "Ya", "Yes of course", "yes of course", "Of co
     user_number = [int(input("Enter your 3 lucky number from 0 to 100: "))]
 
   print('When you win, you see "True"')
-  time.sleep(2)
+  time.sleep(1)
 
   for i in range(3):
     win_number = [random.randint(0, 100)]
