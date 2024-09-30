@@ -9,7 +9,7 @@ time.sleep(3.5)
 
 ready = input("Are toy ready?: ")
 
-if ready in ["yes", "Yes", "ya", "Ya", "Yes of course", "yes of course", "Of course", "of course"]:
+if ready in ["yes", "Yes", "ya", "Ya", "Yes of course", "yes of course", "Of course", "of course", "obviously", "Obviously"]:
   print("Your number is drawn")
   time.sleep(2.5)
   user_number = [random.randint(0, 100)]
@@ -36,7 +36,7 @@ time.sleep(3)
 
 ready2 = input("do you want to play a different roulette game?: ")
 
-if ready2 in ["yes", "Yes", "ya", "Ya", "Yes of course", "yes of course", "Of course", "of course"]:
+if ready2 in ["yes", "Yes", "ya", "Ya", "Yes of course", "yes of course", "Of course", "of course", "obviously", "Obviously"]:
   print('Welcome to my game called "Lotto"')
   print("Remember hazard is ilegal! Don't play this game with your friend!")
   time.sleep(5)
